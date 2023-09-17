@@ -27,14 +27,21 @@ To get started with DBank, follow these steps:
 1. **Clone the Repository:**
    ```bash
    git clone <repository-url>
-   
+
+   ```bash
 # Navigate to the project folder
 cd dbank-defi-app
+```
 
-# Install necessary dependencies (if any)
-# For example, if you're using Node.js for frontend development:
+
+ ```bash
+# Install necessary dependencie
+#  If you're using Node.js for frontend development:
 npm install
+```
 
+
+##References
 
 - [Motoko Programming Language Guide](https://internetcomputer.org/docs/current/developer-docs/build/cdks/motoko-dfinity/motoko/)
 - [Motoko Language Quick Reference](https://internetcomputer.org/docs/current/references/motoko-ref/)
