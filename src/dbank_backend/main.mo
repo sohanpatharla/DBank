@@ -4,11 +4,9 @@ import Int "mo:base/Int";
 import Time "mo:base/Time";
 
   actor DBank{
-   stable var currentValue:Float= 100;
+  stable var currentValue:Float= 100;
     currentValue:= 100;
-   
-   
-  
+
    stable var startTime = Time.now();
 
   Debug.print(debug_show (startTime));
@@ -34,7 +32,7 @@ import Time "mo:base/Time";
   public func compound() {
     let currentTime=Time.now();
     let ElapsedTime = (currentTime-startTime)/1000000000;
-    currentValue:=currentValue*(1.01**Float.fromInt(ElapsedTime));
+    currentValue:=currentValue*(1.001**Float.fromInt(ElapsedTime));
     startTime:=currentTime;
   };
 
