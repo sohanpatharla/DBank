@@ -33,7 +33,7 @@ cd dbank-defi-app
 ```
 
 
- ```bash
+=
 # Install necessary dependencie
 #  If you're using Node.js for frontend development:
 npm install
