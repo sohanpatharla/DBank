@@ -28,7 +28,6 @@ To get started with DBank, follow these steps:
    ```bash
    git clone <repository-url>
 
-   ```bash
 # Navigate to the project folder
 cd dbank-defi-app
 ```
